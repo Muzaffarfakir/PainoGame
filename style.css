@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #A6EBFD, #EDEDED, #BDFCFF);
+  height: 100vh;
+}
+
+h3 {
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
