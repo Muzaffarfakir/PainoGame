@@ -70,7 +70,7 @@ function tile(e) {
       x: 0,
       y: 6
     }))
-  }, 500)
+  }, 1500)
 
 }
 // samll useless music function
