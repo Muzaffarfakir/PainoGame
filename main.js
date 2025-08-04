@@ -58,7 +58,7 @@ class Tile {
 function tile(e) {
   setInterval(() => {
 
-    let x = Math.random() * 510;
+    let x = Math.random() * cw;
     let y = 20;
 
     //c.beginPath();
