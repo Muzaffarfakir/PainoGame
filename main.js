@@ -12,7 +12,7 @@ let h = 140;
 
 let m = new Audio();
 m.src = 'music.mp3';
-let ani;
+let sanket;
 // mouse pointer//////// event 
 let mouse = {
   x: undefined,
@@ -28,7 +28,7 @@ window.addEventListener('click', (e) => {
 })
 /// array///////////
 let en = [];
-
+console.log(cw);
 /////// Tile class ////////////
 class Tile {
   constructor(x, y, vel) {
@@ -80,7 +80,7 @@ function music() {
 
 // Animation function lol
 function Animate() {
-  ani = requestAnimationFrame(Animate);
+  sanket = requestAnimationFrame(Animate);
   c.clearRect(0, 0, cw, ch);
   en.forEach((ens, i) => {
     ens.update()
