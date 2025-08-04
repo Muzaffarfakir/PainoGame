@@ -58,8 +58,8 @@ class Tile {
 function tile(e) {
   setInterval(() => {
 
-    let x = Math.random() * 310;
-    let y = 10;
+    let x = Math.random() * 510;
+    let y = 20;
 
     //c.beginPath();
     //c.fillRect(x, y, w, h)
